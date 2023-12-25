@@ -4,10 +4,10 @@ import { shuffle } from '../Util/uitl'
 
 function GameGrid({ arr, page, next, changeSum }) {
   const shuffledcell = shuffle(cell)
-  //   console.log(arr)
+  console.log(arr)
   const add = () => {
     changeSum((prev) => prev + page)
-
+    console.log(' yes')
     next()
   }
   // dark:bg-${shuffledcell[idx]}-300
@@ -17,9 +17,11 @@ function GameGrid({ arr, page, next, changeSum }) {
         {arr.map((item, idx) => (
           <li
             key={idx}
-            className={` sm:h-32 sm:w-32 h-24 w-24 rounded-md ${shuffledcell[idx]} text-wrap text-center font-mono font-medium dark:text-zinc-200 text-xs sm:text-base pt-[40%]`}
+            // pt-[40%]
+            className={` sm:h-32 sm:w-32 h-24 w-24 rounded-md ${shuffledcell[idx]} text-wrap text-center font-mono font-medium dark:text-zinc-200 text-xs sm:text-base `}
           >
-            {item}
+            {/* {item} */}
+            <img src={`/images/${item}.jpg`} className='rounded-md' />
           </li>
         ))}
       </ul>

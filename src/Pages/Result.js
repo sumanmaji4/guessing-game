@@ -32,12 +32,13 @@ function Result({ sum, arr }) {
             <img
               src={`/images/${arr[id].name}.jpg`}
               alt={`{arr[id].name} image`}
+              className='rounded-md'
             />
           </div>
           <p>
             <span className=' font-bold text-xl'>Fun Fact: </span>
             {/* {arr[id].about} */}
-            You lazy human, Google it
+            We are working on it
           </p>
         </>
       )}
