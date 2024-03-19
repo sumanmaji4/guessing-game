@@ -17,21 +17,59 @@ export const idMap = [
 ]
 
 export const aboutFruit = [
-  { name: 'Apple', about: 'about1' },
-  { name: 'Banana', about: 'about2' },
-  { name: 'Pineapple', about: 'about3' },
-  { name: 'Dragon Fruit', about: 'about4' },
-  { name: 'Strawbery', about: 'about5' },
-  { name: 'Orange', about: 'about6' },
-  { name: 'Watermelon', about: 'about7' },
-  { name: 'Coconut', about: 'about8' },
-  { name: 'Grapes', about: 'about9' },
-  { name: 'Mango', about: 'about10' },
-  { name: 'Kiwi', about: 'about11' },
-  { name: 'Guava', about: 'about12' },
-  { name: 'Pomegranate', about: 'about13' },
-  { name: 'Starfruit', about: 'about14' },
-  { name: 'Cherry', about: 'about15' },
+  { name: 'Apple', about: 'Apples are members of the rose family.' },
+  {
+    name: 'Banana',
+    about:
+      'The banana plant is classified as a perennial herb and the banana itself is considered a berry.',
+  },
+  {
+    name: 'Pineapple',
+    about: 'A pineapple is not a pine or an apple. Its actually a berry.',
+  },
+  {
+    name: 'Dragon Fruit',
+    about: 'Did you know that the dragon fruit flower only grows at night.',
+  },
+  {
+    name: 'Strawbery',
+    about: 'Strawberries are the only fruit with seeds on the outside!',
+  },
+  {
+    name: 'Orange',
+    about:
+      'The flowers of an orange tree are white in colour and have a wonderful fragrance',
+  },
+  { name: 'Watermelon', about: 'Watermelon is both a fruit and a vegetable.' },
+  {
+    name: 'Coconut',
+    about:
+      '2.5% of injuries in Papua New Guinea’s Provincial Hospital were reported as caused by falling coconuts.',
+  },
+  {
+    name: 'Grapes',
+    about: 'It takes about 2.5 pounds of grapes to make one bottle of wine.',
+  },
+  { name: 'Mango', about: 'Less than 1% of the flowers becomes mango.' },
+  {
+    name: 'Kiwi',
+    about:
+      'Kiwifruit was initially known as the “Chinese gooseberry” before its name change.',
+  },
+  {
+    name: 'Guava',
+    about:
+      'Guavas contain 4 times more fiber than a pineapple and 4 times more vitamin C than an orange.',
+  },
+  {
+    name: 'Pomegranate',
+    about: 'Pomegranates can be stored up to 2 months in the refrigerator.',
+  },
+  { name: 'Starfruit', about: 'It is named after its shape.' },
+  {
+    name: 'Cherry',
+    about: 'Japanese cherry blossom trees don’t produce fruit.',
+  },
   { name: 'Cashew', about: 'dummyabout' },
   { name: 'Date', about: 'dummyabout' },
   { name: 'Peach', about: 'dummyabout' },
