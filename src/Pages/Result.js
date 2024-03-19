@@ -37,7 +37,7 @@ function Result({ sum, arr }) {
           </div>
           <p>
             <span className=' font-bold text-xl'>Do you know ? </span>
-            {arr[id].about}
+            <p>{arr[id].about}</p>
             {/* We are working on it */}
           </p>
         </>
